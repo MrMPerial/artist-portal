@@ -1,0 +1,12 @@
+h1 {
+	background-color: white;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px gray;
+	padding: 20px;
+	text-align: center;
+}
+
+#banner {
+	display: inline-block;
+	width: 100%;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Artist Name</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+
+  <h1>Artist Name</h1>
+
+  <img id="banner" src="http://placehold.it/1500x300" alt="">
+
+  <!-- Just a placeholder - to be removed before production -->
+  <div class="flexit">
+    <div class="cardContainer">
+      <div class="card">
+        <img src="http://placehold.it/300x300" alt="">
+        <p>Song Title</p>
+        <audio controls controlsList="nodownload">
+            <source src="">
+          </audio>
+      </div>
+    </div>
+
+    <div class="cardContainer">
+      <div class="card">
+        <img src="http://placehold.it/300x300" alt="">
+        <p>Song Title</p>
+        <audio controls controlsList="nodownload">
+            <source src="">
+          </audio>
+      </div>
+    </div>
+
+    <div class="cardContainer">
+      <div class="card">
+        <img src="http://placehold.it/300x300" alt="">
+        <p>Song Title</p>
+        <audio controls controlsList="nodownload">
+            <source src="">
+          </audio>
+      </div>
+    </div>
+
+    <div class="cardContainer">
+      <div class="card">
+        <img src="http://placehold.it/300x300" alt="">
+        <p>Song Title</p>
+        <audio controls controlsList="nodownload">
+            <source src="">
+          </audio>
+      </div>
+    </div>
+  </div>
+  <!-- End placeholder -->
+
+  <div id="cardTemplate"></div>
+
+  <br>
+  <br>
+
+  <p><a href="login.html">Login</a></p>
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
+  <script src="scripts/main.js"></script>
+
+  <script id="songsTemplate" type="text/x-handlebars-template">
+
+    <div class="cardContainer">
+      {{#each songs}}
+      <div class="card">
+        <img src="{{image}}" alt="{{title}}">
+        <p>{{title}}</p>
+        <audio controls controlsList="nodownload">
+          		<source src="{{song}}">
+	          </audio>
+      </div>
+      {{/each}}
+    </div>
+
+  </script>
+
+</body>
+
+</html>

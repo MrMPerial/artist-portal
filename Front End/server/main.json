@@ -1,0 +1,29 @@
+{
+	"songs": [
+		{
+	      "title": "cogitation",
+	      "song": "songs/cogitation.mp3",
+	      "image": "images/cogitation.png"
+	  },
+    {
+        "title": "breakin bank",
+        "song": "songs/breakinbank.mp3",
+        "image": "images/breakinbank.png"
+    },
+    {
+        "title": "what the ghetto brings",
+        "song": "songs/whattheghettobrings.mp3",
+        "image": "images/whattheghettobrings.jpg"
+    },
+    {
+        "title": "stay on my feet",
+        "song": "songs/stayonmyfeet.mp3",
+        "image": "images/stayonmyfeet.png"
+    },
+  	{
+        "title": "lost",
+        "song": "songs/lost.mp3",
+        "image": "images/lost.png"
+    }
+	]
+}

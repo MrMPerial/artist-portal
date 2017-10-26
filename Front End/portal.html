@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Artist Name | Portal</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+
+  <!-- Responsive Div -->
+  <div class="forSmallScreens">
+
+    <!-- Navigation -->
+    <nav class="portalNav">
+
+      <ul>
+
+        <a href="#">
+          <li>Dashboard</li>
+        </a>
+        <a href="#">
+          <li>Upload New Song</li>
+        </a>
+        <a href="#">
+          <li>Manage Current Songs</li>
+        </a>
+        <a href="#">
+          <li>Delete A Song</li>
+        </a>
+        <a href="index.html">
+          <li>My Page</li>
+        </a>
+        <a href="index.html">
+          <li>Log Out</li>
+        </a>
+
+      </ul>
+
+    </nav>
+
+    <!-- Dashboard View -->
+    <div class="dash">
+
+      <div class="flexit">
+
+        <div>
+
+          <p class="uL">Your Name</p>
+
+          <input type="text">
+
+          <h2>Artist Name</h2>
+
+        </div>
+
+        <div>
+
+          <p class="uL">Banner</p>
+
+          <input type="file">
+
+          <img src="http://placehold.it/300x75" alt="">
+
+        </div>
+
+      </div>
+
+      <hr>
+
+      <p class="uL">You have 5 songs active</p>
+
+      <div class="flexit">
+
+        <div>
+          <img src="http://placehold.it/100x100" alt="">
+          <p>Song 1</p>
+          <p><small>play count: 6</small></p>
+        </div>
+        <div>
+          <img src="http://placehold.it/100x100" alt="">
+          <p>Song 2</p>
+          <p><small>play count: 15</small></p>
+        </div>
+        <div>
+          <img src="http://placehold.it/100x100" alt="">
+          <p>Song 3</p>
+          <p><small>play count: 108</small></p>
+        </div>
+        <div>
+          <img src="http://placehold.it/100x100" alt="">
+          <p>Song 4</p>
+          <p><small>play count: 200</small></p>
+        </div>
+        <div>
+          <img src="http://placehold.it/100x100" alt="">
+          <p>Song 5</p>
+          <p><small>play count: 4</small></p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Upload Container -->
+    <div id="upload" class="uploadContainer">
+
+      <div class="uploadSection">
+
+        <p class="uL">Title</p>
+
+        <input type="text" name="songName" value="" id="uploadImage" placeholder="Name of your song">
+
+      </div>
+
+      <div class="uploadSection">
+
+        <p class="uL">Cover</p>
+
+        <input type="file" name="uploadImage" value="" id="uploadImage">
+
+      </div>
+
+      <div class="uploadSection">
+
+        <p class="uL">MP3</p>
+
+        <input type="file" name="uploadSong" value="" id="uploadImage">
+
+      </div>
+
+      <p><button>Upload Song</button></p>
+
+    </div>
+
+    <!-- Manage Container -->
+    <!-- <div id="manage" class="manageContainer">
+
+      <p>Manage Your Songs</p>
+
+      <div class="manageSection">
+        <input type="checkbox">
+        <p>Song 1</p>
+      </div>
+
+    </div> -->
+
+    <!-- Delete Container -->
+    <div class="deleteContainer"></div>
+
+    <div class="preview">
+
+      <img src="http://placehold.it/300x300" alt="">
+
+      <p>Song Title</p>
+
+      <audio src="" controls></audio>
+
+    </div>
+
+  </div>
+
+  <footer>&copy; Artist Portal 2017</footer>
+
+</body>
+
+</html>

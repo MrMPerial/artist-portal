@@ -1,7 +1,16 @@
 <nav>
-  <a routerLink="/"><img src="http://placehold.it/250x50" alt="Site Logo"></a>
+  <a routerLink="/">
+    <h1>Welcome to the <span>Artist Portal</span>!</h1>
+  </a>
 
   <ul>
+    <a routerLink="/radio">
+      <li class="tooltip">Radio<span class="tooltiptext">Currently Unavailable</span></li>
+    </a>
+    <li>
+      <input type="search" placeholder="Search Songs">
+      <input type="button" value="Search">
+    </li>
     <a routerLink="/signup">
       <li>Signup</li>
     </a>

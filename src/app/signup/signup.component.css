@@ -1,0 +1,13 @@
+.signupContainer {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  text-align: center;
+}

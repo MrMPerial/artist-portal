@@ -29,3 +29,16 @@
 	background-color: darkgray;
 	box-shadow: none;
 }
+
+.preview {
+	background-color: white;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px gray;
+	height: 405px;
+	margin: 10px;
+	margin-left: 620px;
+	margin-top: -511px;
+	padding: 10px;
+	text-transform: uppercase;
+	width: 320px;
+}

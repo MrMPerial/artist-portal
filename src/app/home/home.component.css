@@ -1,0 +1,23 @@
+.homeContainer {
+  background-color: #f9f9f9;
+  margin: 0 auto;
+  padding: 30px;
+  width: 960px;
+}
+
+span {
+  color: #db1111;
+}
+
+.signupButton {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.signupButton h3 {
+  background-color: #db1111;
+  color: #f9f9f9;
+  display: inline;
+  border-radius: 5px;
+  padding: 5px 40px;
+}

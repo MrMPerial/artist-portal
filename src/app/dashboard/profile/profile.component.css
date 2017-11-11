@@ -1,0 +1,68 @@
+.dash {
+	background-color: white;
+	box-shadow: 0 2px 2px gray;
+	margin-left: 200px;
+	max-width: 1200px;
+	padding: 10px;
+}
+
+.dash p {
+	font-size: 1.5em;
+}
+
+.flexit {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.previewContainer {
+	margin-left: 200px;
+	max-width: 1150px;
+}
+
+
+h1 {
+	background-color: white;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px gray;
+	padding: 20px;
+	text-align: center;
+}
+
+#banner {
+	display: inline-block;
+	width: 100%;
+}
+
+.cardContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.card {
+	background-color: white;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px gray;
+	height: 405px;
+	margin: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+	width: 320px;
+}
+
+.card img {
+	height: 300px;
+	width: 300px;
+}
+
+.updateButton {
+	margin-top: 75px;
+}
+
+.profileImage img {
+	margin-top: 20px;
+}

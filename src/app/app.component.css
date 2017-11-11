@@ -1,12 +1,28 @@
+/* Colors:
+
+// Gray: #757575
+// Light Gray: #f9f9f9
+// Red: #db1111
+
+*/
+
 * {
 	box-sizing: border-box;
+	outline: none;
 }
 
 body {
 	background-color: #EAECEF;
-	font-family: 'Sedgwick Ave', cursive;
 	margin: 0 auto;
 	padding: 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6, span {
+	font-family: 'Sedgwick Ave', cursive;
+}
+
+p {
+	font-family: sans-serif;
 }
 
 a {
@@ -22,4 +38,8 @@ ul {
 
 .uL {
 	text-decoration: underline;
+}
+
+.container {
+	margin-top: 100px;
 }

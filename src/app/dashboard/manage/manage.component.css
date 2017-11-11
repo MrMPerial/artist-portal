@@ -1,0 +1,55 @@
+.dash {
+	background-color: white;
+	box-shadow: 0 2px 2px gray;
+	margin-left: 200px;
+	max-width: 1200px;
+	padding: 10px;
+}
+
+.dash p {
+	font-size: 1.1em;
+}
+
+.flexit {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+li {
+  background-color: #db1111;
+  color: #f9f9f9;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+}
+
+.list {
+  float: left;
+  width: 33%;
+}
+
+.selected {
+  float: left;
+  width: 33%;
+}
+
+.settings {
+  border: 1px solid gray;
+  border-radius: 15px;
+  float: left;
+  margin-top: 15px;
+  padding: 40px;
+  width: 33%;
+}
+
+.settings input {
+  display: block;
+  margin: 15px;
+}
+
+button {
+  width: 175px;
+}

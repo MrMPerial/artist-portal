@@ -43,3 +43,7 @@ ul {
 .container {
 	margin-top: 100px;
 }
+
+.clear {
+	clear: both;
+}

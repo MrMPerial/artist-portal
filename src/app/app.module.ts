@@ -20,6 +20,7 @@ import { FanPublicComponent } from './fan-dashboard/fan-public/fan-public.compon
 import { FanPrivateComponent } from './fan-dashboard/fan-private/fan-private.component';
 import { DashboardNavComponent } from './dashboard/dashboard-nav/dashboard-nav.component';
 import { DashboardHomeComponent } from './dashboard/dashboard-home/dashboard-home.component';
+import { ProfilePageComponent } from './dashboard/profile/profile-page/profile-page.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { DashboardHomeComponent } from './dashboard/dashboard-home/dashboard-hom
     FanPublicComponent,
     FanPrivateComponent,
     DashboardNavComponent,
-    DashboardHomeComponent
+    DashboardHomeComponent,
+    ProfilePageComponent
   ],
   imports: [
     BrowserModule,

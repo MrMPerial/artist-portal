@@ -21,3 +21,15 @@ span {
   border-radius: 5px;
   padding: 5px 40px;
 }
+
+.radio {
+  margin-top: 10px;
+}
+
+.radioButton h3 {
+  background-color: #757575;
+  border-radius: 5px;
+  display: inline;
+  text-align: center;
+  padding: 10px 40px;
+}
